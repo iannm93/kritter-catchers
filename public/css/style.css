@@ -35,3 +35,17 @@
 
 
 /* NAVBAR ENDS */
+
+/* Hero section */
+.image-container{
+    background-image: url("../img/hero-image-guide-avengers.jpg");
+    background-size: cover;
+    height: 50vh;
+    
+}
+
+#margin-for-hero{
+    margin-left: 2%;
+    padding-top: 2%;
+}
+/* hero section ends */
