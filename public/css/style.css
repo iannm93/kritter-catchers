@@ -1,0 +1,37 @@
+
+/* NAVBAR BEGINS */
+
+#bg{
+    background-color: #57164a;
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    padding: 0;
+
+
+}
+
+#margin-for-ptag{
+    margin: .0001% 0 0 5%;
+   font-weight: 900;
+   font-size: 20px;
+}
+
+
+
+/* NAVBAR ENDS */
