@@ -1,5 +1,27 @@
 
 /* NAVBAR BEGINS */
+.custom-shape-divider-top-1663277584 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+:root{
+    --green: #5DA349;
+    --white: white; 
+}
+.custom-shape-divider-top-1663277584 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-top-1663277584 .shape-fill {
+    fill: #FFFFFF;
+}
 
 #bg{
     background-color: #57164a;
@@ -13,8 +35,13 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: normal normal 900  Segoe UI;
+    
 }
-
+#rel{
+    position: relative;
+    
+}
 .container-fluid{
     padding: 0;
     margin: 0;
@@ -40,15 +67,15 @@
 .image-container{
     background-image: url("../img/hero-image-guide-avengers.jpg");
     background-size: cover;
-    height: 50vh;
+    height: 90vh;
     
 }
 
 #margin-for-hero{
     margin-left: 2%;
-    padding-top: 2%;
+    padding-top: 8%;
     color: white;
-    font: normal normal 900 35px/47px Segoe UI;
+    font: normal normal 900 45px/52px Segoe UI;
 }
 
 #circle{
@@ -58,4 +85,108 @@
     color: white;
     border-radius: 40px;
 }
+#flex{
+  
+    justify-content: start;
+   
+    
+}
+#call-us{
+    align-items: center;
+   margin-bottom: 25px;
+    color: white;
+}
+
+#number{
+    color: #5DA349;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    display: block;
+}
 /* hero section ends */
+/* about section starts */
+#more-about{
+    height: 160vh;
+    background-color:#5da349;
+    color: white;
+ 
+
+}
+
+.spacer{
+    
+        aspect-ratio: 900/300;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+ 
+    
+}
+
+.layer{
+    height: 1vh;
+}
+#about{
+    position: relative;
+    color: #5DA349;
+    z-index: 5;
+}
+/* about section ends */
+/* services section starts */
+
+#services{
+    color: var(--green);
+    font-weight: 900;
+}
+#variety{
+    color: var(--green);
+    font-weight: 600;
+}
+
+#three{
+    color: var(--green);
+
+}
+.box{
+    height: 37.5vh;
+    width: 37vh;
+    background-color: #57164A;
+    border-radius: 50px;
+    
+    margin: 3rem !important;
+}
+#grid{
+    display: grid;
+    /* grid-auto-flow: revert; */
+    grid-template-columns:  repeat(3, .2fr);
+    justify-content: center;
+    justify-items: center;
+}
+/* QUERIES */
+@media only screen and (max-width: 1100px){
+    #grid{
+        grid-template-rows: repeat(3, .1fr);
+        grid-template-columns: repeat(1, .1fr);
+    }
+}
+
+@media only screen and (max-height: 780px){
+    .box{
+        height: 45.5vh;
+        width: 45vh;
+        background-color: #57164A;
+        border-radius: 50px;
+        
+        margin: 3rem !important;
+    }
+}
+/* QUERIES END */
+.test-container{
+    display: block;
+}
+
+#white{
+    color: var(--white);
+}
+/* services section ends */
