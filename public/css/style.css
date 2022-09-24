@@ -267,7 +267,7 @@
 
 /* TREATMENT SECTION START */
 #animals-we-treat {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("../img/raccoon.png");
+  background-image: url("../img/raccoon.png");
   min-height: 75vh;
   background-size: cover;
   display: flex;
