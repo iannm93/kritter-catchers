@@ -1,4 +1,5 @@
 const number = document.getElementById("number")
+const formButton = document.getElementById("formButton")
 
 console.log(number.textContent)
 let callNum = () =>{
@@ -6,7 +7,12 @@ let callNum = () =>{
     window.open(`${number.textContent}`)
     
 }
+
+let buttonChange = () =>{
+    formButton.innerHTML = `Sucessfully Submitted`
+}
 number.addEventListener("click", callNum )
+formButton.addEventListener("click", buttonChange)
 
 // let slideIndex = 0;
 // showSlides();

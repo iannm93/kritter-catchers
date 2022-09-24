@@ -10,6 +10,8 @@
 :root {
   --green: #5da349;
   --white: white;
+  --purple: #57164A;
+  --offGreen: #CDFCC0;
 }
 .custom-shape-divider-top-1663277584 svg {
   position: relative;
@@ -60,7 +62,7 @@
 .image-container {
   background-image: url("../img/hero-image-guide-avengers.jpg");
   background-size: cover;
-  height: 90vh;
+  min-height: 90vh;
 }
 
 #margin-for-hero {
@@ -93,7 +95,7 @@
   color: #5da349;
   background-color: #ffffff;
   border-radius: 50px;
-  height: 67px;
+ min-height: 67px;
   width: 393px;
   display: block;
   font-weight: bold;
@@ -101,7 +103,7 @@
 /* hero section ends */
 /* about section starts */
 #more-about {
-  height: 160vh;
+  min-height: 60vh;
   background-color: #5da349;
   color: white;
 }
@@ -139,7 +141,7 @@
   color: var(--green);
 }
 .box {
-  height: 37.5vh;
+  min-height: 37.5vh;
   width: 37vh;
   background-color: #57164a;
   border-radius: 50px;
@@ -158,6 +160,16 @@
   #grid {
     grid-template-rows: repeat(3, 0.1fr);
     grid-template-columns: repeat(1, 0.1fr);
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .box {
+    height: 70.5vh;
+    width: 45vh;
+    background-color: #57164a;
+    border-radius: 50px;
+
+    margin: 3rem !important;
   }
 }
 
@@ -179,6 +191,7 @@
 #white {
   color: var(--white);
 }
+
 /* services section ends */
 
 /* process section start */
@@ -186,31 +199,31 @@
 .card {
   flex-direction: row;
   align-items: center;
-  height: 40vh;
+  height: 50vh;
 }
 .card-title {
   font-weight: bold;
 }
 #cardimg {
-  width: 93.5%;
+  max-width: 90.5%;
   border-top-right-radius: 0;
   border-bottom-left-radius: calc(0.25rem - 1px);
   background-position: center;
-  height: 40vh;
+  height: 50vh;
   background-size: cover;
   background-image: url("../img/KillianAndClaire.JPG");
 }
 #cardimg2 {
-  width: 93.5%;
+  max-width: 90.5%;
   border-top-right-radius: 0;
   border-bottom-left-radius: calc(0.25rem - 1px);
   background-position: center;
-  height: 40vh;
+  height: 50vh;
   background-size: cover;
   background-image: url("../img/KillianAndClaire2.JPG");
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .card-body {
     padding: 0.5em 1.2em;
   }
@@ -218,21 +231,27 @@
     margin: 0;
   }
   #cardimg {
-    width: 120%;
+    width: 300%;
+    background-position: center;
   }
   #cardimg2 {
     width: 120%;
   }
-}
+} */
 @media only screen and (max-width: 1200px) {
   #cardimg {
-    width: 40%;
+    width: 350%;
     background-position: top;
+  }
+  #cardimg2 {
+    width: 325%;
+    background-position: left;
   }
 }
 
-@media only screen and (max-width: 1052px) {
+@media only screen and (max-width: 752px) {
   #cardimg {
+
     background-image: url("../img/ClaireLadder.JPG");
   }
   #cardimg2{
@@ -248,13 +267,106 @@
 
 /* TREATMENT SECTION START */
 #animals-we-treat {
-  background-image: url("../img/0E0652C8-521D-4417-90E8-AEB4BEEE2B73.jpeg");
-  height: 70vh;
-}
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("../img/raccoon.png");
+  min-height: 75vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
+}
+#rely{
+  padding-top: 5.5rem;
+  color: var(--white);
+}
 .test {
+
   position: relative;
   z-index: 5;
   color: green;
 }
+
+#mx-auto{
+  margin: 0 auto;
+  color: var(--white);
+}
 /* TREATMENT SECTION END */
+/* 
+<!-- FORM SECTION BEGIN --> */
+
+#contact-form{
+  font-weight: bold;
+  color: var(--green);
+  margin-top: 8rem;
+}
+
+#estimate{
+  color: var(--green);
+}
+#estimate-and-number{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  
+}
+#call-us-button{
+height: 60px;
+display: block;
+ width: 330px;
+ background-color: var(--purple);
+border-radius: 35px;
+ color:var(--white);
+ border-color: var(--purple)
+
+}
+#email-stuff{
+  margin-top: 9rem;
+}
+#email{
+  color:var(--green);
+}
+  
+#email-actual{
+  color: var(--purple);
+  font-weight: bold;
+}
+#form{
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 20px
+}
+#formButton{
+  display: block;
+  border-radius: 15px;
+  background-color: var(--offGreen);
+  color: var(--purple);
+  height: 50px;
+  min-width: 133px;
+  border-color: var(--offGreen);
+  font-weight: 500;
+
+
+}
+
+input{
+  border: grey;
+  border-radius: 15px;
+}
+.form-group{
+  border-radius: 30px;
+}
+.form-control{
+  border-radius: 15px;
+  border-color: gray;
+}
+#purp{
+  font-weight: 900;
+  color: var(--purple);
+}
+
+#formButton:hover{
+  transform: translateY(-2px), scale(1.1);
+}
+/* <!-- FORM SECTION END --> */
