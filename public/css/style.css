@@ -10,8 +10,8 @@
 :root {
   --green: #5da349;
   --white: white;
-  --purple: #57164A;
-  --offGreen: #CDFCC0;
+  --purple: #57164a;
+  --offGreen: #cdfcc0;
 }
 .custom-shape-divider-top-1663277584 svg {
   position: relative;
@@ -95,7 +95,7 @@
   color: #5da349;
   background-color: #ffffff;
   border-radius: 50px;
- min-height: 67px;
+  min-height: 67px;
   width: 393px;
   display: block;
   font-weight: bold;
@@ -251,11 +251,10 @@
 
 @media only screen and (max-width: 752px) {
   #cardimg {
-
     background-image: url("../img/ClaireLadder.JPG");
   }
-  #cardimg2{
-    background-image: url("../img/ClairAndKillianLadder.JPG")
+  #cardimg2 {
+    background-image: url("../img/ClairAndKillianLadder.JPG");
   }
 }
 
@@ -274,20 +273,18 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
-#rely{
+#rely {
   padding-top: 5.5rem;
   color: var(--white);
 }
 .test {
-
   position: relative;
   z-index: 5;
   color: green;
 }
 
-#mx-auto{
+#mx-auto {
   margin: 0 auto;
   color: var(--white);
 }
@@ -295,51 +292,51 @@
 /* 
 <!-- FORM SECTION BEGIN --> */
 
-#contact-form{
+#contact-form {
   font-weight: bold;
   color: var(--green);
   margin-top: 8rem;
 }
 
-#estimate{
+#estimate {
   color: var(--green);
 }
-#estimate-and-number{
+#estimate-and-number {
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 100%;
-  
 }
-#call-us-button{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+#call-us-button {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
-height: 60px;
-display: block;
- width: 330px;
- background-color: var(--purple);
-border-radius: 35px;
- color:var(--white);
- border-color: var(--purple)
-
+  height: 60px;
+  display: block;
+  width: 330px;
+  background-color: var(--purple);
+  border-radius: 35px;
+  color: var(--white);
+  border-color: var(--purple);
 }
-#email-stuff{
+#email-stuff {
   margin-top: 9rem;
 }
-#email{
-  color:var(--green);
+#email {
+  color: var(--green);
 }
-  
-#email-actual{
+
+#email-actual {
   color: var(--purple);
   font-weight: bold;
 }
-#form{
+#form {
   width: 50%;
   margin: 0 auto;
-  border-radius: 20px
+  border-radius: 20px;
 }
-#formButton{
+#formButton {
   display: block;
   border-radius: 15px;
   background-color: var(--offGreen);
@@ -349,26 +346,67 @@ border-radius: 35px;
   border-color: var(--offGreen);
   font-weight: 500;
   margin-bottom: 5em;
-
 }
 
-input{
+input {
   border: grey;
   border-radius: 15px;
 }
-.form-group{
+.form-group {
   border-radius: 30px;
 }
-.form-control{
+.form-control {
   border-radius: 15px;
   border-color: gray;
 }
-#purp{
+#purp {
   font-weight: 900;
   color: var(--purple);
 }
 
-#formButton:hover{
+#formButton:hover {
   transform: translateY(-2px), scale(1.1);
+}
+#instagram-updates:hover {
+  transform: scale(1.02);
+}
+#instagram-updates {
+  color: var(--green);
+  padding-right: 8px;
+}
+
+#ig-link {
+  font-weight: bold;
+  color: var(--purple);
+  text-decoration: none;
+  padding-right: 8px;
+}
+#ig-link:hover {
+  transform: translateY(-3px) scale(1.02);
+  cursor: pointer;
+  /* padding: 0px 12px 0px 7px; */
+}
+#container-ig {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+#test:hover {
+  transform: scale(1.02);
+}
+#for-updates {
+  color: var(--green);
+}
+
+@media only screen and (max-width: 411px) {
+  #instagram-updates {
+    font-size: 18px;
+  }
+  #ig-link {
+    font-size: 18px;
+  }
+  #for-updates {
+    font-size: 18px;
+  }
 }
 /* <!-- FORM SECTION END --> */

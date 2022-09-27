@@ -1,5 +1,7 @@
 const number = document.getElementById("number")
 const formButton = document.getElementById("formButton")
+const igLink = document.getElementById("ig-link")
+
 
 console.log(number.textContent)
 let callNum = () =>{
@@ -11,8 +13,15 @@ let callNum = () =>{
 let buttonChange = () =>{
     formButton.innerHTML = `Sucessfully Submitted`
 }
+
+let igRedirect = ()=>{
+window.open("https://www.instagram.com/")
+}
 number.addEventListener("click", callNum )
 formButton.addEventListener("click", buttonChange)
+igLink.addEventListener("click", igRedirect)
+
+
 
 // let slideIndex = 0;
 // showSlides();
