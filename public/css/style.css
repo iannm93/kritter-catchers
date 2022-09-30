@@ -62,7 +62,7 @@
 .image-container {
   background-image: url("../img/hero-image-guide-avengers.jpg");
   background-size: cover;
-  min-height: 90vh;
+  min-height: 95vh;
 }
 
 #margin-for-hero {
@@ -84,21 +84,24 @@
   align-items: center;
 }
 #call-us {
-  align-items: center;
+  /* align-items: center; */
   margin-bottom: 25px;
   color: white;
   font-weight: bold;
 }
-
+#number:hover{
+  transform: scale(1.02) translateY(-3px);
+}
 #number {
   border-color: white;
   color: #5da349;
   background-color: #ffffff;
   border-radius: 50px;
   min-height: 67px;
-  width: 393px;
+  max-width: 450px;
   display: block;
   font-weight: bold;
+  padding: 15px;
 }
 /* hero section ends */
 /* about section starts */
@@ -211,7 +214,7 @@
   background-position: center;
   height: 50vh;
   background-size: cover;
-  background-image: url("../img/KillianAndClaire.JPG");
+  background-image: url("/img/KillianAndClaire.JPG");
 }
 #cardimg2 {
   max-width: 90.5%;
