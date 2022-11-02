@@ -45,9 +45,35 @@
   padding: 0;
   margin: 0;
 }
-
+.nav-link{
+  color: white;
+}
 .navbar {
   padding: 0;
+}
+.navbar-brand:hover{
+  color: white;
+}
+.nav-link:hover{
+  color: white;
+}
+
+.navbar-brand{
+
+  color: white;
+}
+a:active{
+  text-decoration: none;
+
+  color: white;
+}
+a:focus{
+  color: white !important;
+ 
+
+}
+a{
+  text-decoration: none;
 }
 
 #margin-for-ptag {
@@ -55,14 +81,31 @@
   font-weight: 900;
   font-size: 20px;
 }
+.ss{
+  color: white !important;
+  border-bottom: 2px solid white;
+
+}
+
+.navbar ul li a:hover{
+  color: white !important;
+  border-bottom: 2px solid white;
+}
 
 /* NAVBAR ENDS */
 
 /* Hero section */
+@media only screen and (min-width: 767px) {
+  #button-and-consult {
+    margin-top: 8em;
+  }
+}
+
 .image-container {
-  background-image: url("../img/hero-image-guide-avengers.jpg");
+  background-image: url("../img/E374A2B2-9392-42CD-8727-91A61ABEF12B.jpeg");
   background-size: cover;
   min-height: 95vh;
+  padding-bottom:2em;
 }
 
 #margin-for-hero {
@@ -73,11 +116,9 @@
 }
 
 #circle {
-  height: 80px;
-  width: 80px;
-  background-color: white;
-  color: white;
-  border-radius: 40px;
+ max-width: 90px;
+  max-height: 90px;
+  margin: 0;
 }
 #flex {
   justify-content: start;
@@ -93,6 +134,7 @@
   transform: scale(1.02) translateY(-3px);
 }
 #number {
+  box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
   border-color: white;
   color: #5da349;
   background-color: #ffffff;
@@ -159,13 +201,59 @@
   justify-items: center;
 }
 /* QUERIES */
+/* @media only screen and (max-height: 660px) {
+  .box {
+    height: 45.5vh !important;
+    width: 45vh !important;
+    background-color: #57164a;
+    border-radius: 50px;
+
+    margin: 3rem !important;
+  }
+} */
+#grid2 {
+  display: grid;
+  grid-auto-flow: revert;
+   grid-template-columns: repeat(4, .02fr);
+  justify-content: center;
+  justify-items: center; 
+  /* display: flex; */
+}
+
+@media screen and (min-width: 742px) {
+  #grid2{
+    display: grid;
+    grid-auto-flow: revert;
+     grid-template-columns: repeat(4, .02fr);
+    /* justify-content: center;
+    justify-items: center;  */
+   padding-top: 7em;
+  }
+
+  
+}
+#kritter-catchers-logo{
+  padding: 3em;
+}
+@media screen and (max-width: 742px) {
+  #grid2{
+    display: grid;
+    grid-auto-flow: revert;
+     grid-template-columns: repeat(2, .02fr);
+    /* justify-content: center;
+    justify-items: center;  */
+   padding-top: 5em;
+  }
+
+  
+}
 @media only screen and (max-width: 1100px) {
   #grid {
     grid-template-rows: repeat(3, 0.1fr);
     grid-template-columns: repeat(1, 0.1fr);
   }
 }
-@media only screen and (max-width: 1025px) {
+/* @media only screen and (max-width: 1025px) {
   .box {
     height: 70.5vh;
     width: 45vh;
@@ -174,12 +262,12 @@
 
     margin: 3rem !important;
   }
-}
+} */
 
-@media only screen and (max-height: 780px) {
+@media only screen and (max-height: 660px) {
   .box {
-    height: 45.5vh;
-    width: 45vh;
+    height: 50.5vh;
+    width: 50vh;
     background-color: #57164a;
     border-radius: 50px;
 
