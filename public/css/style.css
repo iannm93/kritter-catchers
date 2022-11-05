@@ -97,10 +97,13 @@ a{
 /* Hero section */
 @media only screen and (min-width: 767px) {
   #button-and-consult {
-    margin-top: 8em;
+    margin-top: 20em;
   }
 }
 
+#button-and-consult{
+  margin-top: 2em;
+}
 .image-container {
   background-image: url("../img/E374A2B2-9392-42CD-8727-91A61ABEF12B.jpeg");
   background-size: cover;
@@ -152,7 +155,9 @@ a{
   background-color: #5da349;
   color: white;
 }
-
+.about-process{
+  padding: 1em 3.5em 3.5em 3.5em;
+}
 .spacer {
   aspect-ratio: 900/300;
   width: 100%;
@@ -170,6 +175,10 @@ a{
   z-index: 5;
   font-weight: bold;
 }
+.text-icons{
+  color: white;
+}
+
 /* about section ends */
 /* services section starts */
 
