@@ -119,9 +119,9 @@ a{
 }
 
 #circle {
- max-width: 90px;
-  max-height: 90px;
-  margin: 0;
+ max-width: 60px;
+  max-height: 60px;
+  margin: 5em 5em 1em 5em;
 }
 #flex {
   justify-content: start;
@@ -178,6 +178,7 @@ a{
 .text-icons{
   color: white;
 }
+
 
 /* about section ends */
 /* services section starts */
@@ -244,7 +245,7 @@ a{
 #kritter-catchers-logo{
   padding: 3em;
 }
-@media screen and (max-width: 742px) {
+@media screen and (max-width: 1279px) {
   #grid2{
     display: grid;
     grid-auto-flow: revert;
@@ -408,9 +409,7 @@ a{
   max-width: 100%;
 }
 #call-us-button {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 
   height: 60px;
   display: block;
@@ -421,7 +420,7 @@ a{
   border-color: var(--purple);
 }
 #email-stuff {
-  margin-top: 9rem;
+  margin-top: 3.5rem;
 }
 #email {
   color: var(--green);
