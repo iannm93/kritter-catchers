@@ -1,4 +1,8 @@
 /* NAVBAR BEGINS */
+body,html{
+  overflow-x: hidden;
+}
+
 .custom-shape-divider-top-1663277584 {
   position: absolute;
   top: 0;
