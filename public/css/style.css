@@ -105,11 +105,14 @@ a{
   }
 }
 
+
 #button-and-consult{
   margin-top: 2em;
 }
 .today{
-  color:white
+  color:white;
+  padding: 0rem 3.5rem 0rem 3.5rem;
+  font-weight: 900;
 }
 .call-button:hover{
   transform: translateY(-2px) scale(1.02);
@@ -123,26 +126,25 @@ a{
   background-color: 
   #538c4f;
   color: white;
+  border: .2px solid black;
 }
-.image-container {
-  background-image: url("../img/E374A2B2-9392-42CD-8727-91A61ABEF12B.jpeg");
-  background-size: cover;
-  min-height: 95vh;
-  padding-bottom:2em;
-}
+
 #blur{
-height: 100%;
+min-height: 100vh;
 width: 45%;
 background-color: white;
 background: rgba(255, 255, 255, 0.5) /* Green background with 30% opacity */;
-  position: absolute;
+margin: 0;
+
+/* position: absolute; */
 }
 
 #image-container {
+  background-position: 75% 1%;
   background-image: url("../img/Kritter\ Catchers\ hero\ 2.png");
   background-size: cover;
-  min-height: 95vh;
-  padding-bottom:2em;
+  min-height: 100vh;
+
   position: relative;
 }
 
@@ -154,7 +156,7 @@ background: rgba(255, 255, 255, 0.5) /* Green background with 30% opacity */;
 }
 
 #circle {
- max-width: 40px;
+  max-width: 40px;
   max-height: 40px;
   margin: 5em 5em 1em 5em;
 }
@@ -183,6 +185,24 @@ background: rgba(255, 255, 255, 0.5) /* Green background with 30% opacity */;
   font-weight: bold;
   padding: 15px;
 }
+@media screen and (max-width: 1023px) {
+  #blur{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    background: rgba(255, 255, 255, 0.4) /* Green background with 30% opacity */;
+    position: absolute;
+  }
+
+  #kritter-catchers-logo{
+    margin-top: 1em;
+    padding: 1em;
+  }
+}
+
+
+
+
 /* hero section ends */
 /* about section starts */
 #more-about {
@@ -278,7 +298,7 @@ background: rgba(255, 255, 255, 0.5) /* Green background with 30% opacity */;
   
 }
 #kritter-catchers-logo{
-  margin-top: 5em;
+  margin: 5em 0em 5em 0em;
   padding: 3em;
 }
 @media screen and (max-width: 1279px) {
