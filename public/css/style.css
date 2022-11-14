@@ -27,7 +27,10 @@ body,html{
 .custom-shape-divider-top-1663277584 .shape-fill {
   fill: #ffffff;
 }
-
+.navbar-toggler-icon{
+  color: white;
+  color: purple;
+}
 #bg {
   background-color: #57164a;
   color: white;
@@ -36,7 +39,10 @@ body,html{
 .nav-link {
   color: white;
 }
-
+.navbar-toggler{
+  background-color: white;
+  color: white;
+}
 * {
   margin: 0;
   padding: 0;
@@ -50,7 +56,7 @@ body,html{
   margin: 0;
 }
 .nav-link{
-  color: white;
+  color: white !important;
 }
 .navbar {
   padding: 0;
@@ -61,11 +67,14 @@ body,html{
 .nav-link:hover{
   color: white;
 }
-
+.white{
+  color: white;
+}
 .navbar-brand{
 
   color: white;
 }
+
 a:active{
   text-decoration: none;
 
@@ -84,6 +93,7 @@ a{
   margin: 0.0001% 0 0 5%;
   font-weight: 900;
   font-size: 20px;
+  color: white;
 }
 .ss{
   color: white !important;
@@ -119,7 +129,7 @@ a{
 
 }
 .call-button{
-  font-size: 25px;
+  font-size: 35px;
   border: none;
   height: 5rem;
   width: 75%;
@@ -154,12 +164,24 @@ margin: 0;
   color: white;
   font: normal normal 900 45px/52px Segoe UI;
 }
+#containerZ{
+height: 100%;
+min-width: 15vh;
+  
 
-#circle {
-  max-width: 40px;
-  max-height: 40px;
-  margin: 5em 5em 1em 5em;
 }
+
+
+
+#logoD{
+max-height:25%;
+  max-width: 25%;
+}
+
+
+
+
+
 #flex {
   justify-content: start;
   align-items: center;
@@ -232,6 +254,7 @@ margin: 0;
 }
 .text-icons{
   color: white;
+  /* margin-right: 49%; */
 }
 
 
@@ -277,9 +300,14 @@ margin: 0;
   }
 } */
 #grid2 {
+  /* height: 100%;
+  width: 100%; */
   display: grid;
   grid-auto-flow: revert;
-   grid-template-columns: repeat(4, .02fr);
+  /* grid-template-rows: 200px 100px;
+   */
+   grid-gap: 6em;
+   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   justify-content: center;
   justify-items: center; 
   /* display: flex; */
@@ -319,6 +347,54 @@ margin: 0;
     grid-template-columns: repeat(1, 0.1fr);
   }
 }
+#circle{
+  /* max-width: 100%;
+ height: auto; */
+}
+#flexin{
+  justify-items: center;
+  min-height: 300px;
+  align-items: center;
+  margin-top: 6em;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  /* justify-content: center; */
+}
+#col{
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+.big-container{
+  display: flex;
+  z-index: 10;
+}
+/* .big-container{
+  margin-top: 10em;
+  display: flex;
+} */
+
+/* @media screen and (max-width: 742px) {
+#circle{
+  height: 50%;
+  width: 50%;
+}
+}
+@media screen and (max-width: 376px) {
+  #grid2 {
+    display: grid;
+    grid-auto-flow: revert;
+     grid-gap:0em;
+     grid-template-columns: repeat(4, .02fr);
+    justify-content: center;
+    justify-items: center; 
+  }
+
+
+  
+} */
 /* @media only screen and (max-width: 1025px) {
   .box {
     height: 70.5vh;
