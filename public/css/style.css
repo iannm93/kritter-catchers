@@ -270,6 +270,10 @@ max-height:25%;
 /* about section ends */
 /* services section starts */
 
+.font-weight-bolder{
+  font-weight: bold;
+}
+
 #services {
   color: var(--green);
   font-weight: 900;
