@@ -173,6 +173,12 @@ min-width: 15vh;
 
 }
 
+@media only screen and (min-width: 767px) {
+  #containerZ {
+    min-width: 30vh;
+    height: 100%;
+  }
+}
 
 
 #logoD{
@@ -229,6 +235,7 @@ max-height:25%;
 
 /* hero section ends */
 /* about section starts */
+
 #more-about {
   min-height: 60vh;
   background-color: #5da349;
@@ -316,6 +323,7 @@ max-height:25%;
 }
 
 @media screen and (min-width: 742px) {
+
   #grid2{
     display: grid;
     grid-auto-flow: revert;
@@ -331,14 +339,14 @@ max-height:25%;
   margin: 5em 0em 5em 0em;
   padding: 3em;
 }
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1671px) {
   #grid2{
     display: grid;
     grid-auto-flow: revert;
      grid-template-columns: repeat(2, .02fr);
     /* justify-content: center;
     justify-items: center;  */
-   padding-top: 5em;
+   padding-top: 10em;
   }
 
   
