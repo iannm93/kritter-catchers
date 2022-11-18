@@ -115,6 +115,11 @@ a{
   }
 }
 
+#phone-number{
+  text-decoration: none !important;
+  color: white;
+  font-weight: bold;
+}
 
 #button-and-consult{
   margin-top: 2em;
