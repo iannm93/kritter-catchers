@@ -95,6 +95,12 @@ a{
   font-size: 20px;
   color: white;
 }
+#margin-for-ptag2 {
+  margin: 0.0001% 0 0 2.5%;
+  font-weight: 900;
+  font-size: 20px;
+  color: white;
+}
 .ss{
   color: white !important;
   border-bottom: 2px solid white;
