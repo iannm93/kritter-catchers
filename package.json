@@ -1,28 +1,10 @@
 {
-  "name": "kritter-catchers",
-  "version": "1.0.0",
-  "description": "Developed by Ian Harris (ianmharris93@gmail.com)",
-  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  },
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iannm93/kritter-catchers.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/iannm93/kritter-catchers/issues"
-  },
-  "homepage": "https://github.com/iannm93/kritter-catchers#readme",
-  "dependencies": {
-    "bootstrap": "^5.2.1",
-    "dotenv": "^16.0.2",
-    "ejs": "^3.1.8",
-    "express": "^4.18.2",
-    "nodemon": "^2.0.19",
-    "path": "^0.12.7"
   }
 }
