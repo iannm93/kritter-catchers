@@ -37,3 +37,13 @@ igLink.addEventListener("click", igRedirect)
 //   slides[slideIndex-1].style.display = "block";
 //   setInterval(showSlides, 2000); // Change image every 2 seconds
 // }
+
+for( let i = 0; i < 101; i++){
+    if (i%2 === 0 && i%3 === 0){
+        console.log("fizzbuzz")
+    }else if (i%2 ===0){
+        console.log("fizz")
+    } else if (i%3===0){
+        console.log("buzz")
+    }
+}

@@ -289,16 +289,27 @@ max-height:25%;
   color: var(--green);
   font-weight: 900;
 }
+#wrapper{
+  width: 50% !important;
+  margin: 0 auto !important;
+  text-align: center;
+display: flex;
+}
 #variety {
   color: var(--green);
   font-weight: 600;
 }
-
+@media (max-width: 871px){
+  #wrapper{
+    width: 70% !important;
+    
+  }
+}
 #three {
   color: var(--green);
 }
 .box {
-  min-height: 37.5vh;
+  min-height: 25rem;
   width: 37vh;
   background-color: #57164a;
   border-radius: 50px;
