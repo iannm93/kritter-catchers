@@ -4,7 +4,7 @@ const igLink = document.getElementById("ig-link")
 let gallery = document.querySelector("#gallery");
 let imageTarget = document.getElementById("img-target");
 const url =
-      "https://graph.instagram.com/me/media?fields=id,caption,permalink,media_url&access_token=IGQVJVajIxb1JxRVVWWmgxNnhJRk5sUkh2YmVERGdRZAnIzN0ZAsTHFjYmQxdWFMdG52Wm5IWXVJcjlwVmhRdjNXSnFGVUlyeTNoMldxUG1qRTlRZAEpLdGU3Q3FSVGZAXVzBhU3NldXpxQUFaR25LeXBlYQZDZD";
+      "https://graph.instagram.com/me/media?fields=id,caption,permalink,media_url&access_token=IGQVJVajIxb1JxRVVWWmgxNnhJRk5sUkh2YmVERGdRZAnIzN0ZAsTHFjYmQxdWFMdG52Wm5IWXVJcjlwVmhRdjNXSnFGVUlyeTNoMldxUG1qRTlRZAEpLdGU3Q3FSVGZAXVzBhU3NldXpxQUFaR25LeXBlYQZDZD";      ";
 
 // console.log(number.textContent)
 // let callNum = () =>{
